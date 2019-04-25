@@ -19,7 +19,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="blogpost-content">
-                <div class="col-md-9">
+                <div class="col-md-12">
                     <!-- *** Post loop starts *** -->
 
                     <!-- *** Post1 Starts *** -->
@@ -36,15 +36,7 @@ get_header();
 
                     <!-- *** Post1 Starts Ends *** -->
                     <!-- *** Post loop ends*** -->
-                    <div class="clearfix"></div>
-                    <!-- ***Comment Template *** -->
-                    <?php comments_template(); ?>
-                    <!-- ***Comment Template *** -->
-                </div>
-                <div class="col-md-3">
-                    <!-- *** Sidebar Starts *** -->
-                    <?php get_sidebar(); ?>
-                    <!-- *** Sidebar Ends *** -->
+                  
                 </div>
             </div>
         </div>
